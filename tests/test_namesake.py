@@ -6,17 +6,20 @@ import namesake
 files = ['noun', 'adjective', 'verb', 'adverb']
 pattern = re.compile(r'(\w+-){2}((\w+-){1,2})?[1-9](\d{1,2})?')
 
+
 def test_for_empty_words():
     for t in namesake.counts:
         for i in range(1, namesake.counts[t]):
             line = linecache.getline(namesake.getfilename(t), i)
             assert line.strip() != ''
 
+
 def test_for_single_words():
     for t in namesake.counts:
         for i in range(1, namesake.counts[t]):
             line = linecache.getline(namesake.getfilename(t), i)
             assert ' ' not in line.strip() != ''
+
 
 def test_command(capsys):
     namesake.main()
