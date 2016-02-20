@@ -1,0 +1,11 @@
+venv
+.venv
+.tox
+.vagrant
+namesake.egg-info
+.pytest
+.cache
+.idea
+MANIFEST
+*.pyc
+tests/__pycache__
