@@ -4,7 +4,7 @@ config = {
     'description': 'a dead simple name generator',
     'author': 'Ben Jones',
     'url': 'https://www.github.com/realsalmon/namesake/',
-    'download_url': 'https://www.github.com/realsalmon/namesake/releases',
+    'download_url': 'https://www.github.com/realsalmon/namesake/releases/tag/v0.1',
     'author_email': 'ben@fogbutter.com',
     'version': '0.1',
     'packages': ['namesake'],
