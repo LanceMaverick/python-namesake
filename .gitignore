@@ -9,3 +9,5 @@ namesake.egg-info
 MANIFEST
 *.pyc
 tests/__pycache__
+dist
+
